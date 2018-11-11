@@ -20,7 +20,8 @@ namespace NumberVariableExercises
         private void button1_Click(object sender, EventArgs e)
         {
             decimal myDecimalValue = 10;
-            int myIntValue = myDecimalValue;
+            // cast decimal to int
+            int myIntValue = (int) myDecimalValue;
             MessageBox.Show("The myIntValue is " + myIntValue);
         }
     }
